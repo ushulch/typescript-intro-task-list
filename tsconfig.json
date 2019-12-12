@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es6"
+    ]
+  },
+
+  "include": [
+    "lib/**/*",
+    "src/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
